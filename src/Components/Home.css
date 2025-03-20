@@ -1,0 +1,29 @@
+.home {
+  width: 100%;
+  height: auto;
+  background-color: #343131;
+}
+
+
+@media (max-width: 480px) {
+  .home {
+    background-color: #333; 
+    padding: 10px; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .home {
+    background-color: #444;
+    padding: 20px; 
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .home {
+    background-color: #343131; 
+    padding: 30px; 
+  }
+}

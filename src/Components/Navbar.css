@@ -1,0 +1,86 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caffe-name {
+  color: #fff;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.cart-icon svg {
+  font-size: 40px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.cart-count {
+  color: #fff;
+}
+
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 20px; 
+  }
+
+  .caffe-name {
+    font-size: 28px; 
+    padding: 5px;
+  }
+
+  .cart-icon svg {
+    font-size: 30px; 
+  }
+
+  .cart-count {
+    font-size: 14px; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 25px; 
+  }
+
+  .caffe-name {
+    font-size: 35px; 
+    padding: 8px;
+  }
+
+  .cart-icon svg {
+    font-size: 35px; 
+  }
+
+  .cart-count {
+    font-size: 16px; 
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 10px 30px; 
+  }
+
+  .caffe-name {
+    font-size: 40px; 
+    padding: 10px;
+  }
+
+  .cart-icon svg {
+    font-size: 40px; 
+  }
+
+  .cart-count {
+    font-size: 18px; 
+  }
+}
